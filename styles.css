@@ -902,9 +902,15 @@ a {
   transform: translateY(-2px);
 }
 
-.case-button span {
-  font-size: 16px;
-  line-height: 1;
+.case-button svg {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .case-hero {
